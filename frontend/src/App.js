@@ -35,7 +35,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "https://mini-python-code-editor.fly.dev/execute",
+        "https://min-python-ce-backend.fly.dev/execute",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
